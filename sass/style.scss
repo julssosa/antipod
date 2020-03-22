@@ -1,0 +1,125 @@
+
+
+.nav-top,
+.nav-bottom {
+    font-family: 'Ramabhadra', sans-serif;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 20;
+    a {
+        color: black;
+        text-decoration: none;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.nav-top {
+    top: 0;    
+}
+
+.nav-bottom {
+    bottom: 0;
+}
+
+.nav-top__items,
+.nav-bottom__items {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 40px 40px;
+    text-transform: uppercase;
+}
+
+.nav-top__item,
+.nav-bottom__item {
+    font-size: 46px;
+}
+
+.main {
+    height: 100%;    
+}
+
+.content {
+    height: 100vh;
+    position: relative;
+    padding: 150px 40px;
+    z-index: 1;
+    background: transparent;
+}
+
+.entries-container {
+    padding: 0 0 300px 0;
+}
+
+.entry {
+    font-family: Roboto;
+    font-weight: 100;
+    background: white;
+    padding: 50px 60px;
+    margin: 0 auto 200px auto;
+    width: 800px;
+}
+
+.entry-title {
+    h2 {
+        font-size: 32px;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+    }
+}
+
+.entry-content {
+    p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+.entry-see-more {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: right;
+    a {
+        color: black;
+        &:visited {
+            color: gray;
+        }
+        &:hover {
+            color: #888888;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.antipod-logo-fixed__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.antipod-logo-fixed__logo-container {
+    display: flex;
+}
+
+.antipod-logo__letter {
+    background: white;
+    padding-left: 0;
+    padding-right: 0;
+    filter: blur(0);
+    img {
+        width: auto;
+        height: 15vh;
+    }
+} 
